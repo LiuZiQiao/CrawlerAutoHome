@@ -3,6 +3,8 @@ package com.lxk.crawler.autohome.service.imp;
 import com.lxk.crawler.autohome.App;
 import com.lxk.crawler.autohome.pojo.CarTest;
 import com.lxk.crawler.autohome.service.ApiService;
+import com.lxk.crawler.autohome.service.CarTestService;
+import com.lxk.crawler.autohome.utils.TitleFilter;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -26,7 +28,10 @@ public class TestCrawlerAutohome {
     @Autowired
     private ApiService apiService;
     @Autowired
-    private CarTest carTest;
+    private CarTestService carTestService;
+    @Autowired
+    private TitleFilter titleFilter;
+
     @Test
     public void testCrawler() throws Exception {
         //声明爬取的页面url
@@ -37,31 +42,42 @@ public class TestCrawlerAutohome {
         Elements divs = domcument.select("#bestautocontent div.uibox");
 //        System.out.println(divs.html().toString());
         for(Element div : divs){
-//            carTest = this.getCarTest(div);
-
-            String ImageName = this.getCarImage(div);
-//            carTest.setImage(ImageName);
-
-//            this.save(carTest);
+            //去重过滤，重复的数据不需要再处理
+            String title =div.select("div.uibox-title").first().text();
+            if (titleFilter.contains(title)){
+                continue;       //如果重复，就遍历下一个
+            }
+            //页面
+            CarTest carTest = this.getCarTest(div);
+            //图片
+            String Image = this.getCarImage(div);
+            carTest.setImage(Image);
+            System.out.println(Image);
+            this.carTestService.saveCarTest(carTest);
         }
     }
 
     private String getCarImage(Element div) {
-//        String url = "";
         List<String> images = new ArrayList<>();
-
-        Elements elements = div.select(".piclist-box ul.piclist02 a");
-        for (Element element: elements) {
-            String url = "https:"+element.attr("href");
-
-            String html = this.apiService.getImage(url);
+       //获取图片的url
+        Elements page = div.select("ul.piclist02 li");
+        //遍历评测图片的元素
+        for (Element element: page) {
+//            System.out.println(element.select("a").attr("href"));
+            //获取图片展示地址
+            String imagePage = "https:"+element.select("a").attr("href");
+            //获取图片展示页面
+            String html = this.apiService.getHtml(imagePage);
+            //解析图片展示页面
             Document doc = Jsoup.parse(html);
-            String picUrl = "https:"+doc.select("#img").attr("src");
-            String image = this.apiService.getImage(picUrl);
+            //获取图片的url地址
+            String imageUrl ="https:" + doc.getElementById("img").attr("src");
+            //下载
+            String image = this.apiService.getImage(imageUrl);
             images.add(image);
-            break;
+//            System.out.println(image);
         }
-        System.out.println(images);
+        //图片名称返回，吧集合转为字符串，多个元素用，分隔
         return StringUtils.join(images,",");
     }
 

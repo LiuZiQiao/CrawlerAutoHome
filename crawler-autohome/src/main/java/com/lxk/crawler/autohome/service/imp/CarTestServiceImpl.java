@@ -1,6 +1,7 @@
 package com.lxk.crawler.autohome.service.imp;
 
 import com.lxk.crawler.autohome.mapper.CarTestMapper;
+import com.lxk.crawler.autohome.pojo.CarTest;
 import com.lxk.crawler.autohome.service.CarTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,5 +23,10 @@ public class CarTestServiceImpl implements CarTestService {
         map.put("rows",rows);
         List<String> list = carTestMapper.queryTitleByPage(map);
         return list;
+    }
+
+    @Override
+    public void saveCarTest(CarTest carTest) {
+        carTestMapper.saveCarTest(carTest);
     }
 }
