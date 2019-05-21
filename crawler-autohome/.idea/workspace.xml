@@ -49,6 +49,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/每日一题.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
@@ -139,7 +140,43 @@
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/web/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/web/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
@@ -159,12 +196,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="304">
+              <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,14 +210,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="297">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +224,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="405">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -198,7 +233,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="270">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -259,9 +294,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-14" />
-    <option name="y" value="204" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="5" />
     <option name="width" value="1386" />
     <option name="height" value="780" />
   </component>
@@ -273,6 +307,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +340,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="autohome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
@@ -369,7 +422,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,7 +433,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558374672845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558418371838" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome" />
@@ -421,7 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCrawlerAutohome">
+  <component name="RunManager" selected="JUnit.TestCrawlerAutohome.testCrawler">
     <configuration name="JsoupUrlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.utils.JsoupUrlTest" />
       <module name="crawler-autohome" />
@@ -499,8 +551,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCrawlerAutohome" />
         <item itemvalue="JUnit.TestCrawlerAutohome.testCrawler" />
+        <item itemvalue="JUnit.TestCrawlerAutohome" />
         <item itemvalue="Application.JsoupUrlTest" />
         <item itemvalue="JUnit.ApiServiceImplTest.getImage" />
         <item itemvalue="JUnit.ApiServiceImplTest.getHtml" />
@@ -517,23 +569,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558316141517</updated>
-      <workItem from="1558316147007" duration="32296000" />
+      <workItem from="1558316147007" duration="32615000" />
+      <workItem from="1558401524554" duration="3619000" />
+      <workItem from="1558428951312" duration="1318000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 06m 53s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 10m 07s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 14m 38s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 19m 43s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 35m 54s.xml">
       <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
     </history-entry>
@@ -552,48 +594,60 @@
     <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 49m 03s.xml">
       <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCrawlerAutohome - 2019.05.21 at 01h 50m 28s.xml">
+      <configuration name="TestCrawlerAutohome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 09h 22m 19s.xml">
+      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 09h 22m 59s.xml">
+      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 09h 27m 59s.xml">
+      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32296000" />
+    <option name="totallyTimeSpent" value="37552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="5" y="0" width="1386" height="780" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19758673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.30514097" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2979066" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9436393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23510467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.30514097" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,13 +661,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -645,13 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/pojo/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -762,26 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -814,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/select/Elements.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -838,16 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -855,29 +856,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="783">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="405">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -78,6 +78,7 @@ public class TestCrawlerAutohome {
 //            System.out.println(image);
         }
         //图片名称返回，吧集合转为字符串，多个元素用，分隔
+        System.out.println("下载图片总数:"+images.size());
         return StringUtils.join(images,",");
     }
 
