@@ -37,6 +37,7 @@ public class TestCrawlerAutohome {
         //声明爬取的页面url
         String url = "https://www.autohome.com.cn/bestauto/1";
         //使用apiService 爬取页面
+        //这里做测试，因此下载页面到  "G:/test.html",这里就直接拿来用
         //jsoup解析页面
         Document domcument = Jsoup.parse(new File("G:/test.html"),"UTF-8");
         Elements divs = domcument.select("#bestautocontent div.uibox");
