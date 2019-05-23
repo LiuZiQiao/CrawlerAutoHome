@@ -8,6 +8,9 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/*
+ * 用于下载页面作为过程测试
+ */
 
 public class JsoupUrlTest {
     public static void main(String[] args) throws Exception {

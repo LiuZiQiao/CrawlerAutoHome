@@ -9,9 +9,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.junit.runner.RunWith;
 import org.jsoup.select.Elements;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -31,6 +31,20 @@ public class TestCrawlerAutohome {
     private CarTestService carTestService;
     @Autowired
     private TitleFilter titleFilter;
+
+    @Test
+    public void queryTitle(){
+        int total = 10;
+        int i = 0;
+        List<List<String>> lists = new ArrayList<>();
+        do {
+            List<String> list = carTestService.queryTitleByPage(1,i);
+            i++;
+            lists.add(list);
+            System.out.println(list);
+        }while (i <= total);
+        System.out.println(lists.size());
+    }
 
     @Test
     public void testCrawler() throws Exception {

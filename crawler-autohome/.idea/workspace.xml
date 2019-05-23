@@ -47,7 +47,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../每日一题/src/Test1.java" afterDir="false" />
@@ -202,8 +205,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="108">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,10 +238,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="162">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,10 +259,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,64 +273,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="278">
+              <caret line="82" column="17" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="82" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -307,9 +286,15 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setWordFrequenciesToReturn</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -321,28 +306,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/TestMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/pojo/CarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/CloseConnectJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/TestCrawlerAutohome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -353,7 +341,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="17" />
     <option name="width" value="1386" />
@@ -436,7 +424,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autohome" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
@@ -475,6 +506,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -483,7 +515,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558616391015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558627788562" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome" />
@@ -498,6 +530,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lxk.crawler.autohome.service.imp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\IntelljIDE\crawler-autohome\src\main\resources\" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lxk.crawler.autohome.service.imp" />
@@ -525,8 +560,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.App">
-    <configuration name="JsoupUrlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.utils.JsoupUrlTest" />
+    <configuration name="WordAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.utils.WordAnalyzer" />
       <module name="crawler-autohome" />
       <extension name="coverage">
         <pattern>
@@ -538,23 +573,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiServiceImplTest.getImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler-autohome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxk.crawler.autohome.service.imp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lxk.crawler.autohome.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.service.imp.ApiServiceImplTest" />
-      <option name="METHOD_NAME" value="getImage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCrawlerAutohome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCrawlerAutohome.queryTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crawler-autohome" />
       <extension name="coverage">
         <pattern>
@@ -564,11 +583,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lxk.crawler.autohome.service.imp" />
       <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.service.imp.TestCrawlerAutohome" />
+      <option name="METHOD_NAME" value="queryTitle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCrawlerAutohome.testCrawler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestServiceImpl.queryTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crawler-autohome" />
       <extension name="coverage">
         <pattern>
@@ -577,9 +598,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lxk.crawler.autohome.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.service.imp.TestCrawlerAutohome" />
-      <option name="METHOD_NAME" value="testCrawler" />
+      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.service.imp.TestServiceImpl" />
+      <option name="METHOD_NAME" value="queryTitle" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crawler-autohome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxk.crawler.autohome.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxk.crawler.autohome.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.lxk.crawler.autohome.utils.WordAnalyzerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -600,10 +635,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.TestCrawlerAutohome.testCrawler" />
-        <item itemvalue="JUnit.TestCrawlerAutohome" />
-        <item itemvalue="Application.JsoupUrlTest" />
-        <item itemvalue="JUnit.ApiServiceImplTest.getImage" />
+        <item itemvalue="JUnit.WordAnalyzerTest" />
+        <item itemvalue="JUnit.TestCrawlerAutohome.queryTitle" />
+        <item itemvalue="JUnit.TestServiceImpl.queryTitle" />
+        <item itemvalue="Application.WordAnalyzer" />
       </list>
     </recent_temporary>
   </component>
@@ -621,32 +656,11 @@
       <workItem from="1558401524554" duration="3619000" />
       <workItem from="1558428951312" duration="1318000" />
       <workItem from="1558593301173" duration="958000" />
-      <workItem from="1558610389046" duration="5397000" />
+      <workItem from="1558610389046" duration="14360000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 35m 54s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome - 2019.05.21 at 01h 37m 16s.xml">
-      <configuration name="TestCrawlerAutohome" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 40m 27s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 46m 23s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 46m 59s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 01h 49m 03s.xml">
-      <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCrawlerAutohome - 2019.05.21 at 01h 50m 28s.xml">
-      <configuration name="TestCrawlerAutohome" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 09h 22m 19s.xml">
       <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
     </history-entry>
@@ -656,9 +670,30 @@
     <history-entry file="TestCrawlerAutohome_testCrawler - 2019.05.21 at 09h 27m 59s.xml">
       <configuration name="TestCrawlerAutohome.testCrawler" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestServiceImpl_queryTitle - 2019.05.23 at 23h 08m 13s.xml">
+      <configuration name="TestServiceImpl.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 10m 25s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 25m 40s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 27m 34s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 28m 11s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 29m 30s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCrawlerAutohome_queryTitle - 2019.05.23 at 23h 31m 11s.xml">
+      <configuration name="TestCrawlerAutohome.queryTitle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43907000" />
+    <option name="totallyTimeSpent" value="52870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -675,8 +710,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30112723" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23510467" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33977455" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3188406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -714,24 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="415" column="58" selection-start-line="415" selection-start-column="58" selection-end-line="415" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -826,16 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/select/Elements.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -843,69 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -929,56 +881,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="567">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/kennycason/kumo-core/1.13/kumo-core-1.13.jar!/com/kennycason/kumo/nlp/FrequencyAnalyzer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="189">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="162">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="756">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -987,8 +927,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="219">
+          <caret line="46" column="35" selection-start-line="44" selection-start-column="33" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/wy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -997,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="278">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="82" selection-end-column="17" />
         </state>
       </provider>
     </entry>

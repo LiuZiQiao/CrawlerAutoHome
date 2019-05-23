@@ -45,4 +45,7 @@ public interface CarTestMapper {
             "	)"
     )
     void saveCarTest(CarTest carTest);
+
+//    @Select("select title from car_test")
+//    public  queryTitle();
 }
